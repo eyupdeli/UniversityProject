@@ -13,8 +13,6 @@ public class Course {
 	private String teacher;
 	private Map<Integer,Student> studentsById = new HashMap<>();
 	
-	// TODO : Eyup neden map kullandik?
-	
 	Course(String title, String teacher, Integer id){
 		this.title=title;
 		this.teacher=teacher;
